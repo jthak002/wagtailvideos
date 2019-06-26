@@ -18,7 +18,7 @@ from django.dispatch.dispatcher import receiver
 from django.forms.utils import flatatt
 from django.urls import reverse
 from django.utils.encoding import python_2_unicode_compatible
-from django.utils.text import mark_safe
+from django.utils.safestring import mark_safe
 from django.utils.translation import ugettext_lazy as _
 from enumchoicefield import ChoiceEnum, EnumChoiceField
 from taggit.managers import TaggableManager
